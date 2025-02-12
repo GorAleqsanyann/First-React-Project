@@ -1,0 +1,6 @@
+#toDoForm {
+  display: flex;
+  gap: 10px;
+  font-weight: 600;
+  padding: 10px;
+}
