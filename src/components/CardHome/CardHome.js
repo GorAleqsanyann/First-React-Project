@@ -1,9 +1,20 @@
 import { useState } from "react";
 
-export default function CardHome({ image }) {
+import "./CardHome.css";
+
+export default function CardHome({ image, text, wiki }) {
   const [show, setShow] = useState(false);
 
-  return <img id="card" src={image} onClick={() => setShow()} />;
+  return (
+    <div id="cardHome">
+      <img id="card" src={image} onClick={() => setShow((e) => !e)} />
+      {show && (
+        <label>
+          <a href={wiki}>{text}</a>
+        </label>
+      )}
+    </div>
+  );
 }
 
 //
