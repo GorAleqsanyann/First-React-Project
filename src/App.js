@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router";
+
 import Menu from "./components/Menu/Menu";
 import Home from "./pages/HomePage/Home";
-import About from "./pages/AboutPage/About";
+import About from "./pages/AboutPage";
 import Contact from "./pages/ContactPage/Contact";
 import Weather from "./pages/WeatherPage/Weather";
 import Register from "./pages/RegisterPage/Register";
