@@ -1,9 +1,11 @@
-.wrap {
-  position: relative;
-  max-width: 600px;
-  margin: 140px auto;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 140px 0px;
 }
 .card {
+  width: 600px;
   display: flex;
   padding: 20px;
   box-shadow: 0 0 0 5px rgb(71, 111, 111);
