@@ -19,7 +19,12 @@ export default function Title() {
     <div className="card-title">
       <p id="p">{textWriting}</p>
       <div className="card-title-top">
-        <input className="inputtitle" onChange={handleChange} type="text" />
+        <input
+          className="inputtitle"
+          onChange={handleChange}
+          type="text"
+          maxLength="30"
+        />
         <Button text="✍"></Button>
       </div>
     </div>

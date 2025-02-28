@@ -18,8 +18,3 @@ export default function About() {
     </div>
   );
 }
-
-// text verevi hatvacum p-n
-// chaper@ greluc heto chmecana
-
-//meke tailwindum
